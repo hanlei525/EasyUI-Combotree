@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="easyui.css">
+</head>
+<body>
+<input id="cc" class="easyui-combotree" multiple style="width: 190px;"  panelHeight="300px">
+<script src="jquery-3.3.1.js"></script>
+<script src="jquery.easyui.min.js"></script>
+<script>
+    $('#cc').combotree({
+        url: 'event1.json',
+    });
+</script>
+</body>
+</html>

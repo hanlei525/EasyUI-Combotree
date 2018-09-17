@@ -9,13 +9,8 @@
     <link rel="stylesheet" href="easyui.css">
 </head>
 <body>
-<input id="cc" class="easyui-combotree" multiple style="width: 190px;"  panelHeight="300px">
+<input id="cc" class="easyui-combotree" multiple style="width: 190px;" data-options="url: 'event1.json'" panelHeight="300px">
 <script src="jquery-3.3.1.js"></script>
 <script src="jquery.easyui.min.js"></script>
-<script>
-    $('#cc').combotree({
-        url: 'https://hanlei525.github.io/EasyUI-Combotree/event1.json',
-    });
-</script>
 </body>
 </html>
